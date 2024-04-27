@@ -1,0 +1,48 @@
+[tool.poetry]
+name = "qosst"
+version = "0.10.0"
+description = "Quantum Open Source Software for Secure Transmission (QOSST) is a suite of software to implement a CV-QKD system."
+authors = ["Yoann Piétri <Yoann.Pietri@lip6.fr>"]
+license = "GPLv3"
+readme = "README.md"
+homepage = "https://github.com/qosst"
+repository = "https://github.com/qosst/qosst"
+documentation = "https://qosst.readthedocs.io/"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Topic :: Security :: Cryptography",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+qosst_hal = "^0.10.0"
+qosst_core = "^0.10.0"
+qosst_alice = "^0.10.0"
+qosst_bob = "^0.10.0"
+qosst_sim = "^0.10.0"
+qosst_skr = "^0.10.0"
+
+
+[tool.poetry.group.dev.dependencies]
+sphinx = "^5.0.0"
+sphinx-rtd-theme = "^1.0.0"
+myst-parser = "^1.0.0"
+sphinx-prompt = "^1.5.0"
+mypy = "^1.3.0"
+pylint = "^2.17.4"
+docstr-coverage = "^2.2.0"
+sphinxcontrib-bibtex = "^2.5.0"
+sphinxcontrib-programoutput = "^0.17"
+
+
+[tool.poetry.scripts]
+qosst-code-quality = "qosst.code_quality:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
