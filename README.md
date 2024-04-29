@@ -4,8 +4,18 @@
 
 ![QOSST Logo](qosst_logo_full.png)
 
+<a href='https://qosst.readthedocs.io/en/latest/?badge=latest'>
+    <img src='https://readthedocs.org/projects/qosst/badge/?version=latest' alt='Documentation Status' />
+</a>
+<a href="https://github.com/qosst/qosst-core/blob/main/LICENSE"><img alt="Github - License" src="https://img.shields.io/github/license/qosst/qosst-core"/></a>
+<a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
+<a href="https://github.com/pylint-dev/pylint"><img alt="Linting with pylint" src="https://img.shields.io/badge/linting-pylint-yellowgreen"/></a>
+<a href="https://mypy-lang.org/"><img alt="Checked with mypy" src="https://www.mypy-lang.org/static/mypy_badge.svg"></a>
+<a href="https://img.shields.io/pypi/pyversions/qosst-core">
+    <img alt="Python Version" src="https://img.shields.io/pypi/pyversions/qosst-core">
+</a>
 </center>
-
+<hr/>
 This repo serves two purposes: the first is to explain how the code quality of QOSST and the second one is to give a general introduction to QOSST.
 
 QOSST was initially developed in the [Quantum Information (QI) team](https://qi.lip6.fr) of the [LIP6 laboratory](https://lip6.fr) in Sorbonne Université.
