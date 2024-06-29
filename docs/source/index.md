@@ -21,7 +21,20 @@ QOSST, for Quantum Open Software for Secure Transmissions is an open source suit
 ```{rubric} Article
 ```
 
-The link to the article will be added soon.
+The article associated to this publication can be found on the arXiv: [arXiv:2404.18637](https://arxiv.org/abs/2404.18637).
+
+Here is the bibtex to cite this paper:
+
+```
+@misc{pietri2024qosst,
+      title={QOSST: A Highly-Modular Open Source Platform for Experimental Continuous-Variable Quantum Key Distribution}, 
+      author={Yoann Piétri and Matteo Schiavon and Valentina Marulanda Acosta and Baptiste Gouraud and Luis Trigo Vidarte and Philippe Grangier and Amine Rhouni and Eleni Diamanti},
+      year={2024},
+      eprint={2404.18637},
+      archivePrefix={arXiv},
+      primaryClass={id='quant-ph' full_name='Quantum Physics' is_active=True alt_name=None in_archive='quant-ph' is_general=False description=None}
+}
+```
 
 ```{toctree}
 ---
